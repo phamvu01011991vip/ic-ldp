@@ -1,0 +1,20 @@
+{
+  "../components/landing-page-sections/testimonials.js -> tiny-slider": {
+    "id": 5206,
+    "files": [
+      "static/chunks/206.76d6d659c42f7bc4.js"
+    ]
+  },
+  "_app.js -> bootstrap/dist/js/bootstrap.js": {
+    "id": 3734,
+    "files": [
+      "static/chunks/734.198140ea17531848.js"
+    ]
+  },
+  "_app.js -> bootstrap/js/src/collapse": {
+    "id": 9399,
+    "files": [
+      "static/chunks/399.bc90cdef31372efa.js"
+    ]
+  }
+}

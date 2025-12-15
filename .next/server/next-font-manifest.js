@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST='{"pages":{"/_app":[],"/android":["static/media/712cc77fdaa986ac-s.p.ttf"],"/ios":[]},"app":{},"appUsingSizeAdjust":false,"pagesUsingSizeAdjust":true}';
