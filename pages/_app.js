@@ -61,7 +61,7 @@ function MyApp({ Component, pageProps, mainMenu }) {
       j.src = "https://static.meiqia.com/widget/loader.js";
       s.parentNode.insertBefore(j, s);
     })(window, document, "script", "_MEIQIA");
-    _MEIQIA("entId", "ac089d73f6f2d45039ba4afc67348135");
+    _MEIQIA("entId", "8541e1f3e76552c3df6e912ee6fea1ce");
     _MEIQIA("language", "vi");
     _MEIQIA("withoutBtn");
     _MEIQIA("getPanelVisibility", checkMessegePanel);
