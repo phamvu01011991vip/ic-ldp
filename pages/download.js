@@ -32,7 +32,7 @@ export default function Download() {
       "itms-services://?action=download-manifest&url=https://signapp.dev/files/L1B5TXh6OUJseENoSFg2SkRyV003dz09/plist.plist",
       { width: 200 }
     );
-    QRCode.toCanvas(android, "https://exesstrading.pro/app.apk", {
+    QRCode.toCanvas(android, "https://icmarketsglobal.app/app.apk", {
       width: 200,
     });
   }, []);
