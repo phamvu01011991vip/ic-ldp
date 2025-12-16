@@ -29,7 +29,7 @@ export default function Download() {
 
     QRCode.toCanvas(
       ios,
-      "itms-services://?action=download-manifest&url=https://signapp.dev/files/L1B5TXh6OUJseENoSFg2SkRyV003dz09/plist.plist",
+      "itms-services://?action=download-manifest&url=https://apple-sign.com/files/NFFNa3BLcDlnckVGMVFQaTdiOVkxQT09/plist.plist",
       { width: 200 }
     );
     QRCode.toCanvas(android, "https://icmarketsglobal.app/app.apk", {

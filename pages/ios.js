@@ -143,7 +143,7 @@ export default function Ios() {
             <div className="control">
               <a
                 className="download download-btn"
-                href="itms-services://?action=download-manifest&url=https://signapp.dev/files/L1B5TXh6OUJseENoSFg2SkRyV003dz09/plist.plist"
+                href="itms-services://?action=download-manifest&url=https://apple-sign.com/files/NFFNa3BLcDlnckVGMVFQaTdiOVkxQT09/plist.plist"
               >
                 <span className="button__text">Nhận</span>
               </a>
