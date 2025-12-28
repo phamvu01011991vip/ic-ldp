@@ -738,6 +738,7 @@ p {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+ 
 }
 
 .sticky {
@@ -752,12 +753,19 @@ p {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+  
 }
 
 .sticky .navbar .navbar-nav .nav-item a {
   color: rgba(0, 0, 0, 0.9);
 }
-
+.sticky .navbar h3 {
+  color: rgba(0, 0, 0, 0.9) !important;
+}
+ .navbar .navbar-nav .nav-item a.active,
+ .navbar .navbar-nav .nav-item a:hover {
+  color: #fff;
+ }
 .sticky .navbar .navbar-nav .nav-item a.active,
 .sticky .navbar .navbar-nav .nav-item a:hover {
   color: rgba(0, 0, 0, 0.9);
@@ -826,7 +834,7 @@ p {
 .navbar-toggler .toggler-icon {
   width: 30px;
   height: 2px;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #fff;
   display: block;
   margin: 5px 0;
   position: relative;
@@ -836,7 +844,9 @@ p {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
-
+.sticky .navbar-toggler .toggler-icon {
+  background-color: #000;
+}
 .navbar-toggler.active .toggler-icon:nth-of-type(1) {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -902,7 +912,7 @@ p {
 }
 
 .navbar-nav .nav-item a {
-  color: rgba(0, 0, 0, 0.9);
+  color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -965,6 +975,7 @@ p {
   overflow: hidden;
   height: 780px;
   display: flex;
+  color: #fff;
   align-items: center;
   background: linear-gradient(
     180deg,
@@ -972,6 +983,9 @@ p {
     rgba(255, 255, 255, 0) 93.47%
   );
   z-index: 1;
+  background-image: url("https://www.icmarkets-vnk.com/assets/images/home-banner/03.webp");
+  background-position: center;
+  background-size: cover;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -994,7 +1008,7 @@ p {
   }
 }
 
-.hero-section::after {
+/* .hero-section::after {
   content: "";
   position: absolute;
   width: 862px;
@@ -1004,7 +1018,7 @@ p {
   top: -150px;
   background: #f7a600;
   z-index: -1;
-}
+} */
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero-section::after {
@@ -1051,7 +1065,7 @@ p {
 
 .hero-section .hero-content p {
   margin-bottom: 30px;
-  color: rgba(0, 0, 0, 0.6);
+  color: #fff;
   font-size: 18px;
 }
 

@@ -49,7 +49,7 @@ export default function HeaderSection({ mainMenu }) {
                       marginRight: "5px"
                     }}
                   />
-                  <h3 >IC Markets Global</h3>
+                  <h3 style={{color: "#fff"}}>IC Markets Global</h3>
                 </Link>
                 <MainMenu mainMenuLinks={mainMenu} />
               </nav>
