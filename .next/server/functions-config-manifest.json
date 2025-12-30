@@ -1,1 +1,1 @@
-{"version":1,"functions":{"/blog/[slug]":{},"/blog":{},"/policy":{},"/missing-token":{},"/":{}}}
+{"version":1,"functions":{"/blog":{},"/blog/[slug]":{},"/":{},"/missing-token":{},"/policy":{}}}
